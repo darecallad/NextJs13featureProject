@@ -1,5 +1,25 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## Introduction
+
+This repository contains a Todo application built using the latest features of Next.js 13. The project is designed to demonstrate the capabilities of Next.js 13 by utilizing its features to build a fully functional Todo application.
+
+## Features
+
+- **Next.js 13**: The latest version of Next.js, which includes features like server components, improved routing, and better performance.
+- **Todo Application**: A simple yet functional Todo application that allows users to add, edit, delete, and mark tasks as completed.
+
+## Usage
+
+- To add a task, enter the task description in the input field and click on the 'Add' button.
+- To edit a task, click on the 'Edit' button, modify the task description, and then click on the 'Save' button.
+- To delete a task, click on the 'Delete' button.
+- To mark a task as completed, click on the checkbox next to the task description.
+
+## Contributing
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
 ## Getting Started
 
 First, run the development server:
