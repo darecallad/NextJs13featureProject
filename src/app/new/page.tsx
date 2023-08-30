@@ -1,5 +1,9 @@
 import Link from "next/link";
 
+async function createTodo(data: FormData) {
+  "use server";
+}
+
 export default function Page() {
   return (
     <>
