@@ -1,6 +1,6 @@
 import Link from "next/link";
-import { prisma } from "../db";
-import { TodoItem } from "../components/TodoItem";
+import { prisma } from "../src/db";
+import { TodoItem } from "../src/components/TodoItem";
 
 function getTodo() {
   return prisma.todo.findMany();
