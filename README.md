@@ -1,20 +1,27 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a [Next.js](https://nextjs.org/) project 
 
 ## Introduction
 
-This repository contains a Todo application built using the latest features of Next.js 13. The project is designed to demonstrate the capabilities of Next.js 13 by utilizing its features to build a fully functional Todo application.
+This repository contains a Todo application built using the latest features of Next.js 13. The project is designed to demonstrate the capabilities of Next.js 13 by utilizing its features to build a functional Todo application.
 
 ## Features
 
 - **Next.js 13**: The latest version of Next.js, which includes features like server components, improved routing, and better performance.
-- **Todo Application**: A simple yet functional Todo application that allows users to add, edit, delete, and mark tasks as completed.
+- **Todo Application**: A simple yet functional Todo application that allows users to check Next.js 13's feature.
+- **Prisma**: build simple database for this project working.
 
 ## Usage
 
-- To add a task, enter the task description in the input field and click on the 'Add' button.
-- To edit a task, click on the 'Edit' button, modify the task description, and then click on the 'Save' button.
-- To delete a task, click on the 'Delete' button.
+- To add a task, enter the task description in the input field and click on the 'Create' button.
+
+- ![image](https://github.com/darecallad/NextJs13featureProject/assets/27443134/90f7f35d-909d-45b4-b58e-8d9084027cea)
+
+- ![image](https://github.com/darecallad/NextJs13featureProject/assets/27443134/4b89be29-78fc-4263-870b-c57cdbdeec48)
+
 - To mark a task as completed, click on the checkbox next to the task description.
+
+- ![image](https://github.com/darecallad/NextJs13featureProject/assets/27443134/56704bd8-106f-4826-bbf8-63f5dd71555c)
+
 
 ## Contributing
 
@@ -41,36 +48,9 @@ The [id].js file inside the user folder will automatically be a dynamic route th
 
 To link between pages, you can use the Link component from next/link. For example:
 
-javascript
-Copy code
 import Link from 'next/link'
 
-function Navigation() {
-return (
-
-<nav>
-<Link href="/user/1">
-<a>User 1</a>
-</Link>
-<Link href="/user/2">
-<a>User 2</a>
-</Link>
-</nav>
-)
-}
-
-export default Navigation
-
-# atch-All Routes
-
-You can also create catch-all routes using folders. For example, if you have a file structure like this:
-
-diff
-Copy code
-pages/
---| document/
------| [...params].js
-The [...params].js file inside the document folder will match any route like document/a, document/a/b, document/a/b/c, etc.
+![image](https://github.com/darecallad/NextJs13featureProject/assets/27443134/ce9962bb-a340-48b5-a86c-1acbbff020be)
 
 ## Getting Started
 
