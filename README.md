@@ -20,6 +20,58 @@ This repository contains a Todo application built using the latest features of N
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
+## Next.js 13
+
+# Improved File-Based Routing
+
+Next.js has always had a file-system based router built on the file system, but in Next.js 13, it has been improved to work more intuitively with folders.
+
+# Folder-Based Dynamic Routes
+
+In Next.js 13, you can create dynamic routes using folders. For example, if you have a file structure like this:
+
+diff
+Copy code
+pages/
+--| user/
+-----| [id].js
+The [id].js file inside the user folder will automatically be a dynamic route that matches user/1, user/2, etc.
+
+# Linking Between Pages
+
+To link between pages, you can use the Link component from next/link. For example:
+
+javascript
+Copy code
+import Link from 'next/link'
+
+function Navigation() {
+return (
+
+<nav>
+<Link href="/user/1">
+<a>User 1</a>
+</Link>
+<Link href="/user/2">
+<a>User 2</a>
+</Link>
+</nav>
+)
+}
+
+export default Navigation
+
+# atch-All Routes
+
+You can also create catch-all routes using folders. For example, if you have a file structure like this:
+
+diff
+Copy code
+pages/
+--| document/
+-----| [...params].js
+The [...params].js file inside the document folder will match any route like document/a, document/a/b, document/a/b/c, etc.
+
 ## Getting Started
 
 First, run the development server:

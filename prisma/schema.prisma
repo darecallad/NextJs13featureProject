@@ -11,7 +11,7 @@ datasource db {
 }
 
 
-model Todo{
+model Todo {
   id String @id @default(uuid())
   title String
   complete Boolean
